@@ -1,0 +1,74 @@
+*Test Scenario Document*
+
+= *BASIC AUTHENTICATION*
+[width="100%",options="header,footer"]
+|====================
+|  Sce.ID|Requirement    |Test Scenario  |Test Case
+|1       |Create New User|OK - FAIL      |1. Create success with valid data
+    
+                                          2. Create fail with invalid data 
+                                          
+                                          3. Create fail, data valid but user already exist
+|2       |Login          |OK - FAIL      |1. Login success with valid data
+
+                                          2. Login fail with invalid data
+
+|3       |Forget Password|OK - FAIL      |1. Send reset password link to user email with valid email provided
+
+                                          2. Email doesn't exist, return fail
+|4       |Reset Password |OK - FAIL      |1. Success reset password with valid data
+
+2. Fail reset pawword with invalid data
+
+|5       |Log out        |OK - FAIL      |1. Logout successfully = Token deleted
+                                          2. Logout sucessfully but token cant delete?
+
+|====================
+
+= *USER PROFILE*
+for any user type
+
+[width="100%",options="header,footer"]
+|====================
+|Sce.ID|Requirement    |Test Scenario  |Test Case
+|1     |Create Profile |OK - FAIL      |1. Create Profile success with valid data
+
+2. Create Profile fail, data invalid
+
+|2     |Edit Profile   |OK - FAIL      |1. Update Profile success with new valid data
+
+2. Update Profile fail, data invalid
+|3     |Permission     |OK - FORBIDDEN      |1. Profile belong to user, update allow
+
+2. Not user's profile, action update  forbidden
+|====================
+
+= *[TEMP]RENT USER*
+[width="100%",options="header,footer"]
+|====================
+|Sce.ID|Requirement    |Test Scenario  |Test Case
+|1.    |Search place   |OK - NOT FOUND |1. Return all shop location base on query search receive from user
+
+2. Return empty location, nothing found from user query
+|2.    |Rent product   |OK - FAIL - FORBIDDEN | 1. Rent success
+
+2. Rent fail, no product or product is busy
+
+3. Forbidden, user not allow to rent this product?
+|====================
+
+= *[TEMP]SHOP OR LENDER USER*
+[width="100%",options="header,footer"]
+|====================
+|Sce.ID|Requirement    |Test Scenario  |Test Case
+|1.    |Accept order   |OK - CANCEL    |1. Shop owner accept the order from rent user
+
+2. Shop owner cancel the order (Payment invalid ?)
+|2.    |Update Product |OK - FAIL      |1. Update product success with valid info
+
+2. Update product info fail, invalid data
+|3.    |Tracking Produkt info| OK - FAIL|1. Receive success the tracking info of product (how many views, who are renting at the moment ...)
+
+2. Receive the info fail, product not exist
+|====================
+

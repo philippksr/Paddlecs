@@ -31,7 +31,13 @@
 - Gibt es Infrastruckut für den Server?
 
 == *Tester*
-- Platz für Fragen
+- Anmelden mit Email oder Username?
+- Konto Aktivieren benötig?
+- Kann man die Konto blockieren?
+- Kann Benutzer die Konto löschen?
+- Kann Benutzer den Verleiher reportieren?
+- Kann Benutzer die Produkten oder Verleiher auswerten?
+- Wie viele benutzer typ? (Ausleiher, Admin, Verleiher ...)
 
 == *Deployment - Engeneer*
 - Platz für Fragen
