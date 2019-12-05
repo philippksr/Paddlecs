@@ -1,0 +1,190 @@
+*Ersten Meeting mit dem Auftraggeber*
+
+= *Agenda*
+
+. Vorstellung der Studenten
+
+. Vorstellung des Auftraggebers
+
+. Allgemeines Ziel
+
+. Fragen zum Projekt
+
+. Vereinbarungen mit dem Auftraggeber
+
+. Abschließende Teambesprechung
+
+= *1. Vorstellung*
+
+- Wer sind wir?
+
+- Was machen wir?
+
+- Wie kommt es zu dem Projekt?
+
+= *2. Vorstellung des Auftraggebers*
+
+- Wer ist der Auftraggeber?
+
+- Erreichbarkeit?
+
+= *3. Allgemein*
+
+- Was ist das allg. Ziel des Projektes?
+
+- Vorstellungen über den zeitlichen Projektablauf?
+
+- Vorstellungen über die Zusammenarbeit?
+
+= *4.1. Funktionale Aspekte*
+== *Grundlegende Fragen*
+
+*Frage:* Was ist die primäre Funktionalität, bzw. das Ziel der Webanwendung (Webseite)? 
+
+- Standortfinder?
+- Das buchen und bezahlen von Paddlecs?
+
+_Antwort:_
+
+*Frage:* Was sind die sekundären Anforderung/Funktionalitäten?
+
+- Nutzerprofil?
+- Liste möglicher Abstellorte?
+- Kontaktformular/Chatfunktion bei Fragen?
+
+_Antwort:_
+
+=== *Vermietung und Buchung*
+
+*Frage:* Wie funktioniert die Vermietung? 
+
+_Antwort:_
+
+*Frage:* Wie funktioniert die Rückgabe?
+
+- Kann das Boot überall oder nur an zugewissenen Stationen zurückgeben werden? 
+
+_Antwort:_
+
+*Frage:* Was muss geortet werden (Kunde, Boot)? Gibt es dafür bereits ein System bzw. API?
+
+_Antwort:_
+
+*Frage:* Welche Bootstypen gibt es?
+// ggf. Übersicht des Auftragstellers
+
+_Antwort:_
+
+*Frage:* Welche Bezahlungsarten sollen angeboten werden?
+
+_Antwort:_
+
+=== *Benutzerprofile*
+
+*Frage:* Welche Benutzertypen/Profile/Ansichten (Kunde, Admin, Bootsverleih) soll es geben?Welche Unterscheidungen gibt es in bzgl. der Funktionalität (kurz)?
+// kurz. Antwort, noch keine Konkretisierung, wird im späteren Verlauf analysiert
+
+_Antwort:_
+
+== *Konkrete Fragen*
+=== *Registrierung*
+
+*Frage:* Anmeldung per E-Mail oder Username?
+
+_Antwort:_
+
+*Frage:* Was ist mit "keine Klarnamen" gemeint?
+
+_Antwort:_
+
+*Frage:* Muss das Konto aktiviert werden? (zb. per E-Mail)
+
+_Antwort:_
+
+*Frage:* Kann ein Konto blockiert/gesperrt werden?
+
+_Antwort:_
+
+*Frage:* Kann der Benutzer ein Konto selbstständig löschen?
+
+_Antwort:_
+
+=== *Funktionalität der Benutzerprofile*
+==== *Kunde*
+
+// Platzhalter für die allg. Funktionalität
+
+*Frage:* Kann der Kunde Buchungen stornieren?
+
+_Antwort:_
+
+==== *Verleiher*
+
+// Platzhalter für die allg. Funktionalität
+
+*Frage:* Können die Präferenzen der Nutzerprofile automatisch vom Verleiher berücksichtigt werden?
+
+_Antwort:_ 
+
+*Frage:* Sollen die Bootkonfigurationen durch den Verleiher veränderbar sein?
+
+_Antwort:_
+
+==== *Admin*
+
+// Platzhalter für die allg. Funktionalität
+
+*Frage:* Statistik über die Website Aufrufe, Google Auswertung, etc.?
+
+_Antwort:_
+
+= *4.2. Technische Aspekte*
+== *Architektur*
+
+*Priorisierung des Entwicklungszieles*
+
+Website, mobile Website Ansicht, App-Applikation
+
+. Platzhalter
+. Platzhalter
+. Platzhalter
+
+_Ergänzungsvorschlag:_ Hybrid-Ansatz statt nativ App Programmierung?
+
+*Frage:* Gibt es externe Software-Systeme/Dienste die mit einbezogen werden sollen (APIs, etc.)?
+
+- Gibt es bereits Systeme/ Service (zb. Bootsverwaltung) die mit einbezogen werden sollen?
+
+_Antwort:_
+
+== *Server*
+*Frage:* Worüber soll die Webanwendung gehoostet werden? Gibt es bereits eine Infrastruktur für den Server?
+
+- Interner/privater Server? 
+- Externer Server? (Mieten? Falls Ja, zu welchen Preis/Budget?)
+- Klärung des Begriffes "dezentral" und "cloud-basiert"
+
+_Antwort:_
+
+*Frage:* Welche Anforderungen muss der Server aus technischer Sicht mit sich bringen?
+
+- Auslastung (zb. Anzahl Besucher)?
+- Verfügbarkeit?
+- Anforderungen an BackUps?
+
+_Antwort:_
+
+*Frage:* Wo sollen die Daten gespeichert werden? 
+
+- Auf dem Server? 
+- Externe Festplatte?
+
+_Antwort:_
+
+= *5. Vereinbarungen mit dem Auftraggeber*
+
+// Ziel bis zum nächsten Treffen, Hilfestellung, Zusammenarbeit, etc.
+
+= *6. Abschließende Teambesprechung*
+
+// Klärung der weiteren Vorgehensweise‚‚
