@@ -15,7 +15,10 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das Projekt Paddlec, das von Team 10 entwickelt wird. Das System wird es Rene Budich, M.Sc. erlauben, ein Online-Buchungstool zu nutzen, um damit Reservierungen von Booten zu erleichtern.
+Dieses Visions-Dokument bezieht sich auf das Projekt Paddlec, das vom oben genannten Team (Punkt 1, im Folgenden als Team 10 bezeichnet) im Auftrag von Rene Budich entwickelt wird.
+
+Das System soll Nutzern ermöglichen, Paddelboote an festgelegten Standorten sowohl über eine Website als auch über mobile Endgeräte buchen und bezahlen zu können. Die Verfügbarkeit sowie die Verleihstationen der Boote sollen im Produkt ersichtlich sein. Außerdem soll bei einer abgeschlossenen Buchung das Boot freischaltet werden. Die mechanische Ausführung vor Ort ist dabei nicht Bestandteil des Projektes.
+
 
 === Definitionen, Akronyme und Abkürzungen
 siehe Glossar (Verweis hier einfügen).
@@ -27,28 +30,19 @@ siehe Glossar (Verweis hier einfügen).
 === Fachliche Motivation
 Im Projekt PADELLEC soll eine bedarfsgerechte elektrische Schubunterstützung von Paddelbooten und Kajaks entwickelt werden. Es soll damit das Prinzip des Peddelecs, auf dem Wasser umgesetzt werden. Das Padellec ist ein elektrisches Wasserfahrzeug auf Basis eines klassischen Bootsrumpfs. Dies kann je nach Sportgebiet, Ambitionen oder Präferenzen zum Beispiel ein Kajak oder Kanu sein. 
 
-Im Rahmen dieses Projektes soll ein dezentrales, cloud-basiertes Buchungsportal erarbeitet werden, um eine Vermarktung der Boote zu ermöglichen.
+Im Rahmen dieses Projektes soll ein dezentrales, cloud-basiertes Buchungsportal erarbeitet werden, um eine Etablierung der Boote auf dem Markt zu ermöglichen.
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
 
 === Problem Statement
 //Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
 
 |===
-|Das Problem |	ist fehlende Vermarktung von Paddlec-Booten
-|betrifft |	den Auftraggeber (Rene Budich), die Kunden, evtl. Mitarbeiter
-|die Auswirkung davon ist |	keine Buchungen von Paddlec-Booten
-|eine erfolgreiche Lösung wäre |	ein Online-Buchungsportal.
+|Das Problem |	keine Möglichkeit Paddelboote autark auszuleihen
+|betrifft |	den Auftraggeber (Rene Budich), Mitarbeiter sowie die potenziellen Kunden
+|die Auswirkung davon ist |	keine Buchungen von Paddlec-Booten 
+|eine erfolgreiche Lösung wäre | eine Webseite, die eine autarke Vermietung von Paddelbooten auch auf mobilen Endgeräten möglich macht.
 |===
 
-////
-Beispiel
-|===
-|Das Problem | aktuelle Informationen zum Stundenplan und Noten einfach zu erhalten
-|betrifft |	Studierende der HTW Dresden
-|die Auswirkung davon ist |	umständliche und aufwändige Suche nach Noten, Zeiten und Räumen
-|eine erfolgreiche Lösung wäre |	die Zusammenführung und benutzer-individuelle Darstellung auf einem mobilen Endgerät
-|===
-////
 
 === Positionierung des Produkts 
 //Ein Positionierung des Produkts beschreibt das Einsatzziel der Anwendung und die Bedeutung das Projekts an alle beteiligten Mitarbeiter.
@@ -59,29 +53,21 @@ Beispiel
 |Für|	Wassersportinterssierte
 |die|	ein elektrisch unterstütztes Boot ausleihen wollen
 |Das Produkt ist ein | dezentrales, cloud-basiertes Buchungsportal
-|Das	|Verleihstandorte mit jeweiligen Inventarstand anzeigt.
-|Im Gegensatz zu	|herkömmlichen Nachfragen über Verleihstandorte
-|Unser Produkt|	ermöglicht Online-Buchungen mit aktuellen Informationen über Standort und Inventar der Boote.
+|Das	|ein autonomes Buchen von Paddelbooten ermöglicht
+|Im Gegensatz zu	|herkömmlichen Buchungsanfragen über Email oder Telefon
+|Unser Produkt|	ermöglicht just-in-time Buchungen über mobile Endgeräte durch aktuelle Informationen über Standort und Inventar der Boote.
 |===
-
-
-//Beispiel Produkt:
-//|===
-//|Für|	Studierende der HTW
-//|die|	die ihren Studienalltag effizienter organisieren möchten
-//|Das Produkt ist eine | mobile App für Smartphones
-//|Die 	| für den Nutzer Informationen zum Stundenplan und Noten darstellt
-//|Im Gegensatz zu	| Stundenplänen der Website und HIS-Noteneinsicht
-//|Unser Produkt| zeigt nur die für den Nutzer relevanten Informationen komfortabel auf dem Smartphone an.
-//|===
 
 ==	Stakeholder Beschreibungen
 ===	Zusammenfassung der Stakeholder 
 
 [%header]
 |===
-|Name|	Beschreibung	| Verantwortlichkeiten
-|[Benennung des Stakeholder-Typs.]	|[Kurze Beschreibung des Stakeholders.]	|[Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+|Name|	Beschreibung	| Verantwortlichkeiten/Interessen
+|Auftraggeber	|Inhaber von Paddelec | Überwachung des Projektfortschrittes, Bereitstellen von Informationen, Stellen von Anforderungen   
+//[Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+| Prof. Anke | Team-Coach | Unterstützung des Teams bei internen Problemen sowie Projektabläufen und Rückfragen | Projektteam | Projektmanager, Analysten, Architekt, Developer, Tester, Deployment Engineer| Umsetzung der Anforderungen vom Auftraggeber,  Realisierung des Projektes unter Anwendung des Unified Process | Mitarbeiter | Beteiligte Entwickler von Paddelec Booten | Bereitstellung von Informationen
+| Kunden | Wassersportinteressierte | Buchung, Bezahlung, Nutzung und Rückgabe der Boote, Service, Kulanz, Datenschutz| Staat | Gesetzgeber | Datenschutz, Einhaltung von rechtlichen Rahmenbedingungen | 
 |===
 
 === Benutzerumgebung
@@ -89,6 +75,8 @@ Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 . Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
+
+
 . Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
 . Gibt es besondere Umgebungsbedingungen, z.B. mobil, offline, Außeneinsatz, Touchbedienung, Nutzung durch seh- oder hörbeeinträchtigte Personen?
 . Welche Systemplattformen werden heute eingesetzt? Welche sind es ggf. zukünftig?
