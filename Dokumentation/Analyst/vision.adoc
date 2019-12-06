@@ -91,10 +91,11 @@ Hier können zudem bei Bedarf Teile des Unternehmensmodells (Prozesse, Organigra
 [%header]
 |===
 |Bedarf|	Priorität|	Features|	Geplantes Release
-|xx|xx|xx|xx
+|Buchen der Paddelboote| hoch | Das Auswählen und die digitale Freigabe eines Paddelbootes, um eigenständiges Mieten zu ermöglichen. |
+offen| Bezahlung der Paddelboote| hoch | Die Möglichkeit zwischen verschiedenen Online-Zahlungsmethoden zu wählen, um individuellen Bezahlprozess anzubieten.  | offen | Abgabe der Paddelboote | hoch | Wiederaufnahme des abgegebenen Bootes ins System.| offen | Zustandskontrolle der Paddelboote| mittel | Bei Abgabe der Boote automatische Abfrage des Zustands zur Überwachung von Schäden| offen | Standortübersicht| mittel | Das Einsehen verschiedener Verleihstandorte mit Hilfe einer Karte. | offen | Übersicht des Inventars| mittel | Bietet einen Überblick über verfügbare Boote in den jeweiligen Verleihstandorten, um dem Kunden die Planung zu erleichtern. |offen|Nutzerprofile|niedrig|Speicherung von Kundendaten, um schnellen Buchungsprozess für eine höhere Benutzerfreundlichkeit zu ermöglichen.|offen||
 |===
 			
-
+ 
 == Zusätzliche Produktanforderungen
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 Hinweise:
@@ -108,7 +109,7 @@ Hinweise:
 [%header]
 |===
 |Anforderung|	Priorität|	Geplantes Release
-|xx|xx|xx|
+|Stornierung einer Buchung| hoch | offen |
 |===
 		
 
